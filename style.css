@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #002D2D;
+}
+
+h2, h3 {
+    color: #002D2D;
+}
+
+body {
+    background: rgba(77,158,117,0.8);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 100;
+    line-height: 1.9;
+}
+
+li {
+    list-style-type: none;
+}
+
+#wrapper {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+}
+
+#firstDiv {
+    width: 49%;
+    margin: 3px;
+    float: left;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    background:rgba(211,211,211,0.9);                   
+    padding: 20px;    
+    color: rgb(77,158,117);    
+    border-radius: 3px;  
+    text-align: center”                   
+}
+
+#secondDiv {
+    width: 49%;
+    margin: 03px;
+    float: right;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    background:rgba(211,211,211,0.9);                   
+    padding: 20px; 
+    color: rgb(77,158,117);    
+    border-radius: 3px;  
+    text-align: center”                   
+}
+
+#kitty {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 15px;
+    box-shadow: 5px 5px 25px rgba(0,0,0,0.2);
+}
+
+.list-inline {
+    list-style: none;
+}
+.list-inline li {
+    display:inline;
+}
+.list-inline li a i {
+    font-size: 30px;
+    margin: 10px;
+    color: #000;
+}
+a {
+    color: darkblue;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+.btn-container {
+    margin: 30px 0;
+}
+
+.btn {
+    width: 200px;
+    text-align: center;
+    padding: 20px 40px;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+
+.btn:hover {
+    background: blue;
+    color: white;
+}
+
+.btn:active {
+    background: black;
+}
+
+.container {
+    background-color none;
+    width: 800px;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 800px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 600px;
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+        width: 100%;
+    }
+    h1 {
+        color: red;
+        font-size: 20px;
+    }
+}
