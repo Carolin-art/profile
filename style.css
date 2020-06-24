@@ -100,6 +100,7 @@ a:hover {
 .btn:hover {
     background: rgb(56, 119, 87);
     color: white;
+    font-weight:bold;
 }
 
 .btn:active {
